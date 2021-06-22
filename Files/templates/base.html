@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ pagetitle }}</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/file.css') }}"> -->
+    <!-- My method -->
+    {% block stylesheet %}
+    {% endblock stylesheet %}
+    <!-- Video method -->
+    {% if costum_css %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/' + costum_css + '.css') }}">
+    {% endif %}
+    <link rel="icon" href="https://codeorigin.jquery.com/jquery-wp-content/themes/jquery/images/logo-jquery.png">
+</head>
+<body>
+    <!-- {% if costum_css %}
+    <div>{{ costum_css }}</div>
+    {% endif %} -->
+    {{ test }}
+    {% block body %}
+    {% endblock %} 
+    <script src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

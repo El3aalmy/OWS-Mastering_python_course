@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEE;
+  font-family: Arial, Tahoma;
+}
+.page-head,
+.page-description {
+  text-align: center;
+}
+.page-head {
+  font-size: 40px;
+  margin: 20px 0 0;
+}
+.page-description {
+  font-size: 22px;
+  margin: 10px 0 0;
+}
+/* --------- */
+.skills-box {
+  background-color: #FFF;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #CCC;
+  width: 450px;
+}
+.skills-box .skill-name {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.skills-box .skill-progress {
+  background-color: #DDD;
+  padding: 10px;
+  position: relative;
+}
+.skills-box .skill-progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #009688;
+}

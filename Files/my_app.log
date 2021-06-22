@@ -1,0 +1,25 @@
+root
+root
+root
+root CRITICAL This is critical message
+2021-05-29 21:10:37,265 root CRITICAL This is critical message
+2021-05-29 21:10:38,152 root CRITICAL This is critical message
+2021-05-29 21:10:38,362 root CRITICAL This is critical message
+2021-05-29 21:10:38,882 root CRITICAL This is critical message
+(2021-05-29 21:12:25,375) => | root | CRITICAL =>  'This is critical message'
+(2021-05-29 21:12:25,817) => | root | CRITICAL =>  'This is critical message'
+(2021-05-29 21:12:26,304) => | root | CRITICAL =>  'This is critical message'
+(2021-05-29 21:13:41,943) => | root | ERROR =>  'This is critical message'
+(2021-05-29 21:13:42,579) => | root | ERROR =>  'This is critical message'
+(2021-05-29 21:14:02,366) | root | WARNING =>  'This is critical message'
+(2021-05-29 21:14:03,305) | root | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:18:30) | root | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:18:30) | root | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:18:31) | root | WARNING =>  'This is critical message'
+(29 May 2021, 21:19:03) | root | WARNING =>  'This is critical message'
+(29 May 2021, 21:19:05) | root | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:20:51) | Hasan | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:20:51) | Hasan | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:20:51) | Hasan | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:20:52) | Hasan | WARNING =>  'This is critical message'
+(29 - May - 2021, 21:20:52) | Hasan | WARNING =>  'This is critical message'

@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEE;
+  font-family: Arial, Tahoma;
+}
+.page-head,
+.page-description {
+  text-align: c;
+}

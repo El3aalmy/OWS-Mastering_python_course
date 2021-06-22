@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1 class="page-head">{{ page_head }}</h1>
+<p class="page-description">{{ description }}</p> 
+
+{% for skill in skills %}
+<div class="skills-box">
+  <div class="skill-name">{{ skill[0] }}</div>
+  <div class="skill-progress">
+    <span data-width="{{ skill[1] }}%"></span>  
+    <!-- style="width: {{ skill[1] }}"   for test the width of the span before add jquery and js -->
+  </div>
+</div>
+{% endfor %}
+
+{% endblock %}
